@@ -1,24 +1,8 @@
 
-//VARIABLES
-
-
 @import 'vars';
 @import 'reset';
 @import 'index';
 @import 'empresa';
+@import 'generales';
 
 
-
-// CLASES GENERALES
-.botones {
-    background-color: $colorPrincipal;
-    color: white;
-    font-family: sans-serif;
-    &:hover{
-        background-color: white !important;
-    }
-}
-
-.titulos {
-    color: $colorPrincipal;
-}

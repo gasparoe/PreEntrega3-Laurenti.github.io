@@ -1,0 +1,71 @@
+#main__empresa {
+    background-color: white;
+    padding-bottom: 50px;
+
+    h1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 40px;
+        font-family: sans-serif;
+        text-align: center;
+        color: orangered;
+        animation-duration: 2s;
+    }
+
+    p {
+        font-family: sans-serif;
+        color: black;
+        text-align: justify;
+        font-size: 20px;
+        padding: 10px 10px;
+        line-height: 30px;
+    }
+
+    iframe {
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 20px;
+
+
+    }
+
+    @media (min-width: 992px) {
+        p {
+            padding: 10px 150px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        iframe {
+            width: 60%;
+            height: 400px;
+        }
+    }
+}
+
+#section1__empresa {
+    h2{
+        color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 5px;
+    }
+    p{
+        padding-left: 15px;
+    padding-right: 15px;
+    line-height: 25px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    }
+    div {
+        img{
+            height: 200px;
+        }
+    }
+}
+
