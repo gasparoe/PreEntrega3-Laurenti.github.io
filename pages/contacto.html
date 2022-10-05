@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../assets/logoredondo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/dc3be69b64.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container-fluid text-center pt-3 pb-1 header_informacion">
+            <div class="row">
+                <div class="col">
+                    <p>(03401)-420140</p>
+                </div>
+                <div class="col">
+                    <p>Lun-Vie 08:00-14:00hs</p>
+                </div>
+                <div class="col">
+                    <p>medelinox@medelinox.com.ar</p>
+                </div>
+            </div>
+
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark header_menu_navegacion">
+            <div class="container-fluid">
+                <a class="navbar-brand p-2" href="../index.html"><img class="logo_menu"
+                        src="../assets/logo_medelinox.png" alt="logo_menu"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./empresa.html">Empresa</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./productos.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item p-2" href="./productos.html">Productos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item p-2" href="#">Cerveza</a></li>
+                                <li><a class="dropdown-item p-2" href="#">Chocolate</a></li>
+                                <li><a class="dropdown-item p-2" href="#">Dulce de Leche</a></li>
+                                <li><a class="dropdown-item p-2" href="#">Chocolate</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ingenieria.html">Ingenieria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  active" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn botones" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">ACCESO CLIENTES</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title titulos" id="exampleModalLabel">ACCESO CLIENTES</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">Nunca comparta su email ni contraseña.
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+
+
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Salir</button>
+                                    <button type="button" class="btn botones">Ingresar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main_contacto">
+        <div class="container-fluid text-center pt-3 pb-1">
+            <h1 class="animate__animated animate__fadeInLeftBig">CONTACTO</h1>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputNombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputApellido" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Direccion</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Paraguay 1774">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Rosario">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Provincia</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Santa Fe</option>
+                        <option>Buenos Aires</option>
+                        <option>Cordoba</option>
+                        <option>Otra Provincia</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Codigo Postal</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su consulta aqui"></textarea>
+                </div>
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">CONSULTA ENVIADA!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Su consulta ha sido enviada con exito. Responderemos a la brevedad.
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn botones" data-bs-target="#exampleModalToggle2"
+                                    data-bs-toggle="modal">OK</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <a class="btn botones" data-bs-toggle="modal" href="#exampleModalToggle" role="button">ENVIAR
+                    CONSULTA</a>
+            </form>
+        </div>
+    </main>
+
+    <section id="section1_contacto">
+        <div class="container-fluid text-center p-4">
+            <h2 class="animate__animated animate__fadeInLeftBig">NUESTRA UBICACION</h2>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13503.038528907302!2d-61.703664!3d-32.210707!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5db743bd71ec459b!2sMEDELINOX%20S.A!5e0!3m2!1ses-419!2sar!4v1661780660976!5m2!1ses-419!2sar"
+             style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div>
+            <div class="redessociales">
+                <a href="https://instagram.com/medelinox"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
+                <a href="https://facebook.com/medelinox"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+                <a href="https://linkedin.com/medelinox"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+
+            </div>
+            <h2>2022 by Medelinox S.A.</h2>
+            <p>Todos los derechos reservados ©</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,630 @@
+/* RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* CODIGO PERSONAL */
+
+body {
+    background-color: black;
+}
+
+#header {
+    top: 0;
+    z-index: 999999;
+    position: sticky;
+}
+
+.header_informacion {
+    display: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: black;
+    color: grey;
+    list-style: none;
+    z-index: 9999;
+}
+
+@media (min-width: 992px) {
+    .header_informacion{
+        display: block;
+    }
+}
+
+
+.logo_menu {
+    height: 30px;
+}
+
+.header_menu_navegacion {
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.botones{
+    background-color: orangered;
+    color: white;
+    font-family: sans-serif;
+}
+
+.titulos {
+    color: orangered;
+}
+
+.botones:hover{
+    background-color: white !important;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+    
+}
+
+.carousel-titulo{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.carousel-texto{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#main {
+    position: relative;
+}
+
+#main h1 {
+    margin-top: 50px;
+    font-size: 45px;
+    display: flex;
+    font-family: sans-serif;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: white;
+    z-index: 99999;
+    animation-duration: 2s;
+}
+
+.logos_clientes img {
+    width: 100%;
+}
+
+#section_1 h5 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#section_1 p {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#section_1 img {
+    height: 300px;
+    object-fit: cover;
+}
+
+#section_1 .col a {
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+} */
+
+.fa-map-location-dot {
+    padding: 15px;
+    color: gray;
+}
+
+.fa-envelope {
+    padding: 15px;
+    color: gray;
+}
+
+.fa-headset {
+    padding: 15px;
+    color: gray;
+}
+
+#footer {
+    background-color: white;
+    text-align: center;
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer .redessociales {
+    display: inline;
+}
+
+#footer .redessociales a {
+    color: gray;
+}
+
+#footer .redessociales a:hover{
+    color: orangered;
+}
+
+#footer .redessociales i {
+    padding-inline: 5px;
+}
+
+
+
+
+/* PAGE EMPRESA */
+
+#main_empresa {
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+#main_empresa h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    animation-duration: 2s;
+}
+
+#main_empresa p {
+    font-family: sans-serif;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px 10px;
+    line-height: 30px;
+}
+
+@media (min-width: 992px) {
+    #main_empresa p {
+        padding: 10px 150px;
+    }
+}
+
+#main_empresa iframe {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+}
+
+@media (min-width: 992px) {
+    #main_empresa iframe {
+        width: 60%;
+        height: 400px;
+    }
+}
+
+#section1_empresa h2 {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#section1_empresa div p {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 25px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+#section1_empresa div img {
+    height: 200px;
+}
+
+
+
+
+
+
+
+/* PAGE PRODUCTOS */
+
+#main_productos {
+    padding-top: 10px;
+    background-color: white;
+    padding-bottom: 50px;
+
+}
+
+#main_productos h1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    animation-duration: 2s;
+}
+
+#main_productos p {
+    font-family: sans-serif;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px 200px;
+    line-height: 30px;
+}
+
+#main_productos img {
+    width: 100%;
+    height: 100%;
+}
+
+#section1_productos {
+    background-color: white;
+}
+
+#section1_productos h2 {
+    padding-top: 10px;
+    color: orangered;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#section1_productos p {
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    color: black;
+}
+
+#section1_productos a {
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+}
+
+#section1_productos img {
+    height: 250px;
+}
+
+
+
+
+
+/* PAGE INGENIERIA */
+
+#main_ingenieria {
+    background-color: white;
+}
+
+#main_ingenieria a {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: auto;
+    width: min-content;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+}
+
+.boton-personalizado {
+    background-color: rgb(199, 199, 199);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    height: 40px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.boton-personalizado h3 {
+    padding-right: 5px;
+}
+
+.boton-personalizado i{
+    color: red;
+}
+
+#main_ingenieria h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    animation-duration: 2S;
+}
+
+#main_ingenieria p {
+    font-family: sans-serif;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px 10px;
+    line-height: 30px;
+}
+
+@media (min-width: 992px) {
+    #main_ingenieria p {
+        padding: 10px 150px;
+    }
+}
+
+#main_ingenieria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 20px;
+
+}
+
+#section1_ingenieria {
+    width: 100%;
+    text-align: center;
+    content: "";
+    display: table;
+    background-color: orangered;
+    align-items: center;
+}
+
+#section1_ingenieria h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    animation-duration: 2s;
+}
+
+#section1_ingenieria p {
+    font-family: sans-serif;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px 10px;
+    line-height: 30px;
+}
+
+@media (min-width: 992px) {
+    #section1_ingenieria p {
+        padding: 10px 150px;
+    }
+}
+
+#section1_ingenieria img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding-top: 20px;
+}
+
+#section2_ingenieria {
+    text-align: center;
+    background-color: white;
+}
+
+#section2_ingenieria .naranja {
+    background-color: orangered;
+}
+
+#section2_ingenieria h2 {
+    padding-top: 10px;
+    color: orangered;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#section2_ingenieria .naranja h2{
+    color: white;
+}
+
+#section2_ingenieria p {
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    color: black;
+}
+
+
+
+
+
+
+/* PAGE CONTACTO */
+
+#main_contacto{
+    background-color: white;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#main_contacto h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    animation-duration: 2s;
+}
+
+#section1_contacto h2 {
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#section1_contacto iframe {
+    width: 100%;
+    height: 600px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    }
+
+
+
+
+
+
