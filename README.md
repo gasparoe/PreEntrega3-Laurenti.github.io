@@ -1,17 +1,17 @@
 
 # PreEntrega2-Laurenti
 
-Pre entrega numero 2 de Gaspar Laurenti.
-Esta pagina esta basada en la primer entrega pero modificando el codigo de manera de lograr una pagina completamente responsive utilizando Bootstrap, flex, animaciones, etc.
+Pre entrega numero 3 de Gaspar Laurenti.
+Esta pagina esta basada en la segunda entrega pero modificando el codigo de manera de lograr una pagina completamente responsive utilizando SASS y agregando elementos de SEO.
 
 ## Vista de pagina web
 
 ```javascript
-https://gasparoe.github.io/PreEntrega2-Laurenti.github.io/
+https://gasparoe.github.io/PreEntrega3-Laurenti.github.io/
 ```
 
 
 ## Autores
 
-- [@ogasparoe](https://www.github.com/gasparoe)
+- [@gasparoe](https://www.github.com/gasparoe)
 
