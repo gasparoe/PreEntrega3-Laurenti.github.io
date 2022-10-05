@@ -153,7 +153,7 @@ body {
     position: sticky;
 }
 
-.header_informacion {
+.header__informacion {
     display: none;
     font-size: 20px;
     font-family: sans-serif;
@@ -170,15 +170,17 @@ body {
 }
 
 
-.logo_menu {
-    height: 30px;
-}
-
-.header_menu_navegacion {
+.header__menu {
     background-color: black;
     font-family: sans-serif;
     font-size: 20px;
 }
+
+.header__menu__logo {
+    height: 30px;
+}
+
+
 
 .botones{
     background-color: orangered;
@@ -228,48 +230,34 @@ body {
     animation-duration: 2s;
 }
 
-.logos_clientes img {
+.section2__logos__clientes img {
     width: 100%;
 }
 
-#section_1 h5 {
+#section1 h5 {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: bold;
 }
 
-#section_1 p {
+#section1 p {
     font-family: sans-serif;
     font-size: 15px;
 }
 
-#section_1 img {
+#section1 img {
     height: 300px;
     object-fit: cover;
 }
 
-#section_1 .col a {
+#section1 .col a {
     padding-bottom: 10px;
     font-size: 15px;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: orangered;
-} */
+} 
 
-.fa-map-location-dot {
-    padding: 15px;
-    color: gray;
-}
-
-.fa-envelope {
-    padding: 15px;
-    color: gray;
-}
-
-.fa-headset {
-    padding: 15px;
-    color: gray;
-}
 
 #footer {
     background-color: white;
